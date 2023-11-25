@@ -10,21 +10,14 @@ class QuestionScreen extends StatefulWidget {
 class _QuestionScreenState extends State<QuestionScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Text("Question screen");
+    return Column(
+      children: [
+        const Text("This is a questions...."),
+        const SizedBox(
+          height: 30,
+        ),
+        ElevatedButton(onPressed: () {}, child: const Text("Answer 1"))
+      ],
+    );
   }
 }
-
-
-// class name extends StatefulWidget {
-//   const name({super.key});
-
-//   @override
-//   State<name> createState() => _nameState();
-// }
-
-// class _nameState extends State<name> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container();
-//   }
-// }
