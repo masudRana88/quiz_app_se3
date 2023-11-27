@@ -10,8 +10,8 @@ const questions = [
   QuizQuestion("How are Flutter UIs built?", [
     "By combinding widgets in code",
     "By combinding widgets in a visual editor",
-    "By defining widets in config files"
-        "By using XCode for iOS and Andorid Studio for Android"
+    "By defining widets in config files",
+    "By using XCode for iOS and Andorid Studio for Android"
   ]),
   QuizQuestion("Whats's the purpose of StatefullWidget?", [
     "Update UI as data change",
